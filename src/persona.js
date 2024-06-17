@@ -3,7 +3,7 @@ export const persona = {
     secondName: "Landing",
     description: "Celebrating the craft and care of SaaS marketing design",
     story:
-      "Here, we celebrate exceptional SaaS landing pages. These carefully designed examples are more than marketing tools. They combine dedication, creativity, and precision, turning digital experiences into art. Discover the thoughtful use of typography, well-balanced layouts, and sticky details that showcase the power of thoughtful design. Let these pages inspire you to create your own exquisitely crafted and impactful landing pages.",
+      "Here, we celebrate exceptional SaaS landing pages. These carefully designed sites are more than marketing tools. They combine dedication, creativity, and precision, turning digital experiences into joy. Discover the thoughtful use of typography, well-balanced layouts, and sticky details that showcase the power of thoughtful design. Let these thoughtfully curated SaaS sites inspire you to craft your own landing pages that are both exquisitely designed and impactful.",
   sections: {
     books: [
         {
@@ -30,11 +30,6 @@ export const persona = {
           title: "osome.com",
           desc: 'Osome',
           url: 'https://osome.com/?ref=saaslanding.page'
-        },
-        {
-          title: "refrakt.app",
-          desc: 'Refrakt',
-          url: 'https://refrakt.app/?ref=saaslanding.page'
         },
         {
           title: "steep.app",

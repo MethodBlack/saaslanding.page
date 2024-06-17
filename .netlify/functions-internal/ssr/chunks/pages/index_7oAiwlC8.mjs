@@ -9,7 +9,7 @@ const persona = {
     secondName: "Landing",
     description: "Celebrating the craft and care of SaaS marketing design",
     story:
-      "Here, we celebrate exceptional SaaS landing pages. These carefully designed examples are more than marketing tools. They combine dedication, creativity, and precision, turning digital experiences into art. Discover the thoughtful use of typography, well-balanced layouts, and sticky details that showcase the power of thoughtful design. Let these pages inspire you to create your own exquisitely crafted and impactful landing pages.",
+      "Here, we celebrate exceptional SaaS landing pages. These carefully designed sites are more than marketing tools. They combine dedication, creativity, and precision, turning digital experiences into joy. Discover the thoughtful use of typography, well-balanced layouts, and sticky details that showcase the power of thoughtful design. Let these thoughtfully curated SaaS sites inspire you to craft your own landing pages that are both exquisitely designed and impactful.",
   sections: {
     books: [
         {
@@ -36,11 +36,6 @@ const persona = {
           title: "osome.com",
           desc: 'Osome',
           url: 'https://osome.com/?ref=saaslanding.page'
-        },
-        {
-          title: "refrakt.app",
-          desc: 'Refrakt',
-          url: 'https://refrakt.app/?ref=saaslanding.page'
         },
         {
           title: "steep.app",
@@ -121,7 +116,7 @@ const $$Section = createComponent(($$result, $$props, $$slots) => {
 
 const $$Index = createComponent(($$result, $$props, $$slots) => {
   const fullName = persona.firstName + " " + persona.secondName;
-  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": fullName, "desc": persona.description }, { "default": ($$result2) => renderTemplate` ${renderComponent($$result2, "Header", $$Header, { "title": fullName, "description": persona.description })} ${renderComponent($$result2, "Story", $$Story, { "story": persona.story })} ${renderComponent($$result2, "Section", $$Section, {}, { "default": ($$result3) => renderTemplate` ${renderComponent($$result3, "SectionTitle", $$SectionTitle, { "title": "Pages" })} ${renderComponent($$result3, "List", $$List, {}, { "default": ($$result4) => renderTemplate`${persona.sections.books.map((e) => renderTemplate`${renderComponent($$result4, "ListItem", $$ListItem, { "title": e.title, "desc": e.desc, "url": e.url })}`)}` })} ` })} ${renderComponent($$result2, "Section", $$Section, {})}` })}`;
+  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": fullName, "desc": persona.description }, { "default": ($$result2) => renderTemplate` ${renderComponent($$result2, "Header", $$Header, { "title": fullName, "description": persona.description })} ${renderComponent($$result2, "Story", $$Story, { "story": persona.story })} ${renderComponent($$result2, "Section", $$Section, {}, { "default": ($$result3) => renderTemplate` ${renderComponent($$result3, "SectionTitle", $$SectionTitle, { "title": "Collection" })} ${renderComponent($$result3, "List", $$List, {}, { "default": ($$result4) => renderTemplate`${persona.sections.books.map((e) => renderTemplate`${renderComponent($$result4, "ListItem", $$ListItem, { "title": e.title, "desc": e.desc, "url": e.url })}`)}` })} ` })} ${renderComponent($$result2, "Section", $$Section, {})}` })}`;
 }, "/Users/abhimanyu.rana@postman.com/Documents/Experiments/saaslanding.page/src/pages/index.astro", void 0);
 
 const $$file = "/Users/abhimanyu.rana@postman.com/Documents/Experiments/saaslanding.page/src/pages/index.astro";
