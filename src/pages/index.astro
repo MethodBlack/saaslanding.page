@@ -14,7 +14,7 @@ const fullName = persona.firstName + " " + persona.secondName;
   <Header title={fullName} description={persona.description} />
   <Story story={persona.story} />
   <Section>
-    <SectionTitle title="Collection" />
+    <SectionTitle title="Sites Collection" />
     <List>
       {
         persona.sections.books.map((e) => (
@@ -24,4 +24,13 @@ const fullName = persona.firstName + " " + persona.secondName;
     </List>
   </Section>
   <Section>
+    <SectionTitle title="Apps Collection" />
+    <List>
+      {
+        persona.sections.experience.map((e) => (
+          <ListItem title={e.title} desc={e.desc} url={e.url} />
+        ))
+      }
+    </List>
+  </Section>
 </Layout>

@@ -1,9 +1,9 @@
 export const persona = {
     firstName: "SaaS",
     secondName: "Landing",
-    description: "Celebrating the craft and care of SaaS marketing design",
+    description: "Celebrating the craft and care of SaaS design",
     story:
-      "Here, we celebrate exceptional SaaS landing pages. These carefully designed sites are more than marketing tools. They combine dedication, creativity, and precision, turning digital experiences into joy. Discover the thoughtful use of typography, well-balanced layouts, and sticky details that showcase the power of thoughtful design. Let these thoughtfully curated SaaS sites inspire you to craft your own landing pages that are both exquisitely designed and impactful.",
+      "Here, we celebrate exceptional SaaS design. These thoughtfully designed sites or apps are more than just functionality. They combine dedication, creativity, and precision, turning digital experiences into joy. Discover the thoughtful use of typography, well-balanced layouts, and sticky details that showcase the power of thoughtful design. Let these curated SaaS inspire you to craft your own stunning and impactful landing page or product.",
   sections: {
     books: [
         {
@@ -37,6 +37,28 @@ export const persona = {
           url: 'https://steep.app/?ref=saaslanding.page'
         },                                    
     ],
+    experience: [
+      {
+          title: "linear.app",
+          desc: 'Linear',
+          url: 'https://linear.app/?ref=saaslanding.page'
+      },
+      {
+        title: "slack.com",
+        desc: 'Slack Technologies',
+        url: 'https://slack.com/?ref=saaslanding.page'
+      },
+      {
+        title: "clerk.com",
+        desc: 'Clerk',
+        url: 'https://clerk.com/?ref=saaslanding.page'
+      },
+      {
+        title: "gusto.com",
+        desc: 'Gusto',
+        url: 'https://gusto.com/?ref=saaslanding.page'
+      },
+  ],
   },
       contacts: [
       {
