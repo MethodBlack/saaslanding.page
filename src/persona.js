@@ -7,11 +7,6 @@ export const persona = {
   sections: {
     books: [
         {
-            title: "lovi.care",
-            desc: 'Digital Skincare',
-            url: 'https://lovi.care/?ref=saaslanding.page'
-        },
-        {
           title: "dovetail.com",
           desc: 'Dovetail Research',
           url: 'https://dovetail.com/?ref=saaslanding.page'
@@ -27,6 +22,11 @@ export const persona = {
           url: 'https://www.anygood.app/?ref=saaslanding.page'
         },
         {
+          title: "lovi.care",
+          desc: 'Digital Skincare',
+          url: 'https://lovi.care/?ref=saaslanding.page'
+        },
+        {
           title: "osome.com",
           desc: 'Osome',
           url: 'https://osome.com/?ref=saaslanding.page'
@@ -40,7 +40,8 @@ export const persona = {
   },
       contacts: [
       {
-        title: "© 2024 Method Black.",
+        title: "Curated by @planetabhi.",
+        url: 'https://planetabhi.com/'
       },
     ],
 
