@@ -3,7 +3,7 @@ export const persona = {
     secondName: "Landing",
     description: "Celebrating the craft and care of SaaS design",
     story:
-      "Here, we celebrate exceptional SaaS design. These thoughtfully designed sites or apps are more than just functionality. They combine dedication, creativity, and precision, turning digital experiences into joy. Discover the thoughtful use of typography, well-balanced layouts, and sticky details that showcase the power of thoughtful design. Let these curated SaaS inspire you to craft your own stunning and impactful landing page or product.",
+      "Here, we celebrate exceptional SaaS design. These thoughtfully designed sites or apps are more than just marketing tools or products. They combine dedication, creativity, and precision, turning digital experiences into joy. Discover the thoughtful use of typography, layouts, spacings, and sticky ideas that showcase the power of thoughtful design. Let these curated SaaS inspire you to craft your own stunning and impactful digital experience.",
   sections: {
     books: [
         {
