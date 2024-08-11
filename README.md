@@ -1,1 +1,4 @@
-ᕦ(ò_óˇ)ᕤ
+```
+npm install
+npm run dev
+```
