@@ -3,9 +3,14 @@ export const persona = {
     secondName: "Landing",
     description: "Celebrating the craft and care of SaaS design",
     story:
-      "Here, we celebrate exceptional SaaS design. These tastefully designed sites or apps are more than just marketing tools or products. They combine dedication, creativity, and precision, turning digital experiences into joy. Discover the thoughtful use of typography, layouts, spacings, and sticky ideas that showcase the power of thoughtful design.",
+      "We celebrate exceptional SaaS design here. These tastefully designed sites and apps transcend mere marketing tools or products. They blend dedication, creativity, and precision, elevating digital experiences. Discover thoughtful typography, layouts, spacing, and cool ideas that showcase design's power.",
   sections: {
     books: [
+        {
+          title: "anygood.app",
+          desc: 'List-making app.',
+          url: 'https://www.anygood.app/?ref=saaslanding.page'
+        },
         {
           title: "daylightcomputer.com",
           desc: 'Caring computer.',
@@ -20,11 +25,6 @@ export const persona = {
           title: "family.co",
           desc: 'Crypto wallet.',
           url: 'https://family.co/?ref=saaslanding.page'
-        },
-        {
-          title: "anygood.app",
-          desc: 'List-making app.',
-          url: 'https://www.anygood.app/?ref=saaslanding.page'
         },
         {
           title: "lovi.care",
